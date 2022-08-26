@@ -1,0 +1,64 @@
+h1 {
+    font-size: 60px;
+    text-align: center;
+
+}
+
+
+html {
+    font-size: 10px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+#header {
+    display:block; 
+    width:100%;
+    text-align:center;
+}
+
+
+#header .nav-bar {
+    clear:both;
+    padding-right: 6cm;
+	
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  justify-content: center;
+  justify-content: space-around;
+  padding-left: 3cm;
+  background-color: DodgerBlue;
+}
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    clear: both;
+    
+  }
+
+#homepage {
+    float: left;
+    font-family: 'Trebuchet MS', sans-serif;
+   
+   
+}
+
+h2 {
+    padding-left: 4cm;
+}
+
+.container {
+    background-color: blue;
+
+}
+
+
+
+
