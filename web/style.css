@@ -17,12 +17,6 @@ html {
 }
 
 
-#header .nav-bar {
-    clear:both;
-    padding-right: 6cm;
-	
-}
-
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -59,6 +53,18 @@ h2 {
 
 }
 
+#art {
+    padding-left: 5cm;
+}
 
+#button {
+    display: flex;
+    float: left;
+    margin-top: auto;
+    
+}
 
+#canvas {
+    padding-left: 5cm;
+}
 
