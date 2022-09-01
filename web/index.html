@@ -60,12 +60,51 @@ $(document).ready(function(){
 </section>
 
 <section id="canvas">
-<canvas id="myCanvas" width="200" height="100"></canvas>
+<canvas id="myCanvas" width="600" height="400" style="border:1px solid #d3d3d3;"></canvas>
 <script>
   var c = document.getElementById("myCanvas");
   var ctx = c.getContext("2d");
   ctx.fillStyle = "#6495ED";
-  ctx.fillRect(21, 20, 150, 100);
+  ctx.fillRect(0, 0, 600, 400);
+
+  //sun
+  ctx.beginPath();
+  ctx.arc(500, 75, 50, 0, 2 * Math.PI);
+  ctx.fillStyle="yellow";
+  ctx.fill();
+
+  //clouds
+  ctx.beginPath();
+  ctx.arc(120, 180, 50, 0, 2 * Math.PI);
+  ctx.fillStyle="white";
+  ctx.fill();
+
+  ctx.beginPath();
+  ctx.arc(160, 220, 50, 0, 2 * Math.PI);
+  ctx.fillStyle="white";
+  ctx.fill();
+
+  ctx.beginPath();
+  ctx.arc(90, 220, 50, 0, 2 * Math.PI);
+  ctx.fillStyle="white";
+  ctx.fill();
+
+  ctx.beginPath();
+  ctx.arc(400, 250, 50, 0, 2 * Math.PI);
+  ctx.fillStyle="white";
+  ctx.fill();
+
+  ctx.beginPath();
+  ctx.arc(430, 300, 50, 0, 2 * Math.PI);
+  ctx.fillStyle="white";
+  ctx.fill();
+
+  ctx.beginPath();
+  ctx.arc(380, 300, 50, 0, 2 * Math.PI);
+  ctx.fillStyle="white";
+  ctx.fill();
+
+
   
   </script>
 </section>
